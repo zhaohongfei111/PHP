@@ -1,0 +1,607 @@
+﻿@charset "utf-8";
+.headerbox01,.logo {overflow:hidden;}
+.clear {height:0;}
+.xnolist {height:240px;}
+.xnotice  {padding-bottom:30px;}
+label {display:inline-block;}
+.fmian .databox li strong {width:300px;}
+.datelist li strong.dataw {width:220px;}
+.databox {margin-top:6px;}
+.databox textarea {width:94%;}
+.datelist h2 {display:inline;padding:8px 15px;}
+.databox02 {margin:0 auto;}
+.mainbox02 {padding-top:20px;}
+.pagetable05 table td textarea.tex05 {height:100%;margin-top:10px;}
+.topright02 p input {margin-top:0;}
+.tabbox01 td input.txt05 {width:100px;}
+.xtbbox {padding-left:0;}
+.xtb {margin-left:0;padding:20px 0;width:28%;height:60px;margin-bottom:10px;text-align:center;margin-left:4%;}
+.xtb a {width:100%;}
+.tblist {width:50%;text-align:center;padding:0 0;height:auto;}
+.tblist li {width:269px;margin-left:12%;}
+.tblist li span {right:-15px;top:-10px;}
+.headernavbox,.headerbox {height:auto;padding-top:0;}
+.headertit {width:10%;}
+.headerlist {width:88%;}
+.tdatelist10 li span,.tdatelist10 li strong {width:100%;}
+.tdatelist10 li label input.txt10{width:90%;}
+.tdatelist10 li label {width:32%;}
+.ttxt10 {margin-top:50px;width:46%;background:#f2f2f2;border:1px #d9d9d9 solid;border-radius:12px;padding:10px;font-weight:bold;font-size:14px;}
+.bgbox01 div.tmin10 {width:50%;}
+.datelist10 li label em {font-style:normal;margin:0 0;}
+.datelist10 li div.k {display:inline;}
+.datelist li input.txt03 {width:300px;}
+.tonglistbox01 div.tonglist {height:320px;}
+.tonglistbox {width:30%;margin-left:0;}
+.tonglistbox01 {width:50%;margin-right:0;}
+.xmtable0 {padding-left:0;}
+.xmtable0 table {margin:0 auto;width:60%;}
+.ttopright10 {text-align:center;}
+.pagetablet11 table td,.pagetablet11 table td span,.tablebox11 table tbody td span,.pagetablet11 table td span {vertical-align:middle;}
+.pagetablet11 table {width:80%;}
+.tabbox {width:80%;margin:0 auto;padding:50px 0 0 0;}
+.xmainbox {padding:40px 0 0 0;}
+.xdata01 {padding-right:0;}
+.xzhboxtable {width:66%;}
+.xzhtext {width:31%;}
+.xtablebox table td input.txt01 {width:86%;}
+.xtablebox table td input.txt02 {width:70%;}
+.mbut18 a {width:30%;text-align:center;padding:0 0;}
+.butlistbox {padding:20px 20px;}
+.butlistbox a {width:40%;margin:0 4%;}
+.xtbbox {margin-bottom:30px;}
+.xtbbox div.xx01 {width:100%;height:auto;}
+.datelist20 li input.txt03 {width:230px;}
+.xpleft {width:76%;}
+.xpright {width:24%}
+.xpbox {padding:20px 20px;}
+.xptxt textarea {width:96%;padding:2% 2%;}
+.xptxt {padding:0 0;}
+.datebox20 {padding-top:0;}
+.fxmaintable22 table {width:100%;}
+.titletop25 {height:auto;}
+.titletop25 h2 {width:60%;}
+.listbut26 a {width:220px;text-align:center;}
+.taimgbox ul.phimg li p {line-height:18px;}
+.xptop {margin:10px 0;width:100%;padding:0 0;}
+.xtbbox {width:50%;}
+.xtbbox div.x20 {width:80%;}
+.xdatelist8 div.datelist {width:90%;}
+.width div.datelist {width:auto;}
+.xpleft {width:76%;}
+.xpright {width:24%;height:auto;}
+.xptable table td input.txt01 {width:180px;}
+.xpy01 {float:left;margin-top:5px;}
+
+
+@media screen and (min-width: 1360px) {
+	.indexnavlist li {padding-right:40px;}
+	.xmainbox {width:60%;}
+}
+
+@media screen and (min-width: 1204px) and (max-width: 1359px) {
+	.content ,.mainbox,.logo,.mtop,.mainbox01 {width:96%;}
+	.indexnavlist {width:60%;}
+	.xnotice {width:40%;}
+	.indexnavlist li {padding-right:0px;width:33.3333%;text-align:center;}
+	.innavlist {width:35%;}
+	.innavlist li {width:50%;text-align:center;margin:0 0;}
+	.innavlist li img {width:96%;max-width:200px;}
+	.intxt {width:21%;margin:0 2%;}
+	.xnotice01 {width:37%;}
+	.navbox li a {padding:0 8px;width:auto;line-height:26px;}
+	.maintablebox,.databox02 {width:100%;}
+	.xdatetxt08 {width:350px;}
+	.tabbox01 td input.txt05 {width:80px;}
+	.mtablebox {width:94%;margin:0 auto;}
+	.xtopright02,.topright04,.topright10 {margin-left:4%;}
+	.titletb {width:80%;}
+	.xxbox {padding-left:3%;}
+	.xmainbox {width:60%;}
+	.listbut,.gxbox {margin-top:10px;}
+	.maintable21 table td textarea {height:auto;}
+	.fxmaintable25 table {min-width:auto;}
+	.xpright {width:100%;padding:10px 0;}
+	.xpy {float:left;}
+	.xpy01 {margin-top:0;}
+
+}
+@media screen and (min-width: 980px) and (max-width: 1204px) {
+	.content ,.mainbox,.logo,.mtop,.mainbox01 {width:96%;}
+	.indexnavlist {width:60%;}
+	.xnotice {width:40%;}
+	.indexnavlist li {padding-right:0px;width:33.3333%;text-align:center;}
+	.intxt h4 {margin-top:20px;}
+	.innavlist {width:35%;}
+	.innavlist li {width:50%;text-align:center;margin:0 0;}
+	.innavlist li img {width:96%;max-width:200px;}
+	.intxt {width:21%;margin:0 2%;height:auto;}
+	.xnotice01 {width:37%;}
+	.xnotice div.intxt01,.xnotice01 div.xnolist {height:auto;}
+	.navbox li a {padding:0 8px;width:auto;line-height:26px;}
+	.maintablebox {width:100%;}
+	.upbg {margin:0 auto;}
+	.fileUpload,.dlfbox  {width:100%;}
+	.upbg {margin:0 auto;}
+	.logo img.logoimg {width:30%;}
+	.databox02 {width:100%;}
+	.datetit textarea {width:70%;}
+	.data04,.data05 {width:50%;overflow:hidden;}
+	.fxmaintable8 table {min-width:1100px;}
+	.maintable17  table {min-width:800px;}
+	.xmaintable8 table thead td {padding:2px 2px;}
+	.xdatelist8,.fmaintabletop01 {height:100%;overflow:auto;}
+	.tdatelist li {float:left;margin-right:20px;margin-bottom:10px;}
+	.xdatetxt08 {width:90%;margin-top:10px;}
+	.tabbox01 td input.txt05 {width:80px;}
+	.bgbox01 div.left {width:60%;}
+	.bgbox01 div.right {width:34%;}
+	.datelist10 li div.fileUpload {margin-left:0;}	
+	.tabright01 table thead td {font-size:16px;}
+	.mtablebox,.topright011  {width:94%;margin:0 auto;}
+	.mtable,.bjbut {width:100%;}
+	.topright011  {padding-left:0;}
+	.xtopright02,.topright04,.topright10 {margin-left:4%;}
+	.mainbox01 {padding-top:100px;}
+	.mainbox01 div.right img {width:90px;}
+	.titletb {width:80%;}
+	.mainbox01 div.right {margin-top:20px;}
+	.pagetxtt11 textarea {width:94%;}
+	.xmainbox {width:80%;}
+	.maintable16 table.table16_1,.maintable16 table.table16 {min-width:560px;width:100%;}
+	.maintable18 table {min-width:auto;width:100%;}
+	.listbut,.gxbox {margin-top:10px;}
+	.toprighttxt {width:95%;}
+	.xpleft,.xpright {width:100%;}
+	.xpbox {width:90%;padding:2% 2%;}
+	.xpbox table td.t01 {width:30%;}
+	.maintable21 table td textarea {height:auto;}
+	
+	.fxmaintable25 table {min-width:auto;}
+	.xdatelist82 {width:auto;}
+	.xpleft {width:100%;}
+	.xpright {width:100%;padding:5px 0;}
+	.xpy {float:left;}
+	.xpy01 {margin-top:0;}
+
+}
+@media screen and (min-width: 771px) and (max-width: 979px) {
+	.content ,.mainbox,.logo,.mtop,.mainbox01 {width:96%;}
+	.indexnavlist {width:63%;}
+	.xnotice {width:35%;}
+	.indexnavlist li {padding-right:0px;width:33.3333%;text-align:center;}
+	.indexnavlist li img {width:96%;max-width:158px;}
+	.intxt h4 {margin-top:20px;}
+	.innavlist {width:100%;}
+	.innavlist li {width:25%;text-align:center;margin:0 0;}
+	.innavlist li img {width:96%;max-width:200px;}
+	.intxt {width:96%;padding:2% 2%;margin:0 0;height:auto;}
+	.xnotice01 {width:100%;}
+	.xnotice div.intxt01,.xnotice01 div.xnolist {height:auto;}
+	.navbox li span {width:100%;}
+	.navbox li a {padding:0 8px;width:auto;line-height:26px;}
+	.navbox {padding-top:8px;}
+	.search1 {float:right;height:33px;}
+	.navbox li.td03 span {display:none;}
+	.fda01,.fda02,.fda03 {width:100%;}
+	.maintablebox {width:100%;}
+	.maintable {padding:10px 10px;}
+	.maintable table {min-width:760px;}
+	.maintabletop {margin-top:0;}
+	.maintable table td {line-height:18px;padding:0 0;font-size:14px;}
+	.datelist li {margin-top:3px;}
+	.datelist li input {margin-top:3px;}
+	.datelist li input.txt02 {width:350px;}
+	.fileUpload {margin-top:10px;}
+	.fileUpload,.dlfbox  {width:100%;}
+	.upbg {margin:0 auto;}
+	.datelist h2 {margin:0 0;}
+	.datelist ul {padding-left:0;}
+	.datelist li span,.datelist li strong,.datelist li b,.datelist li em {font-size:15px;width:auto;padding:0 0;margin:0 5px;}
+	.databut {padding:20px 0;}
+	.logo img.logoimg {display:none;}
+	.datelist div.databox {margin-left:0;}
+	.databox textarea {width:94%;}
+	.fmian .databox li strong {width:50%;}
+	.databox02 {width:100%;}
+	.tablebox01 {width:31%;margin-left:2%;}
+	.titletop h2 {margin:0 0;}
+	.datetit textarea,.data04 textarea {margin-left:0;width:96%;padding:2% 2%;}
+	.data04 {width:100%;}
+	.data05 {margin-left:0;width:96%;padding:2% 2%;margin-top:10px;height:auto;}
+	.data05 h4 {padding:10px 0;text-align:center;}
+	.but05 {padding-top:10px;}
+	.box05 {height:auto;width:96%;padding:2% 2%;}
+	.pagetable05 {width:100%;}
+	.pagetable05 table td textarea {width:96%;padding:2% 2%;height:auto;}
+	.datetit h3 {padding-left:0;line-height:20px;}
+	.table05 {padding-left:0;width:100%;overflow:auto;}
+	.table05 table {min-width:760px;}
+	.photoimg {width:100%;}
+	.data05 li input.txt03 {width:90%;}
+	.xdatelist8,.fmaintabletop01 {height:100%;overflow:auto;}
+	.fxmaintable8 table {min-width:1100px;}
+	.xmaintable8 table thead td {padding:2px 2px;}
+	.tdatelist li {float:left;margin-right:20px;margin-bottom:10px;}
+	.xdatetxt08 {width:90%;margin-top:10px;}
+	.tblist li {margin-left:10%;}
+	.headertit {width:15%;}
+	.headerlist {width:84%;}
+	.headerlist li {margin:0px 0 0 3px;}
+	.headerlist li a {width:auto;padding:0 10px;}
+	.bgbox01 div.left {width:60%;}
+	.bgbox01 div.right {width:34%;}
+	.datelist10 li div.fileUpload {margin-left:0;}
+	.datableb10 table td input {margin:0 0;}
+	.headertit,.headerlist,.bgbox01 div.left,.bgbox01 div.right {width:90%;}
+	.headerlist li {margin:0 0 0 2px;}
+	.headerlist li a {width:auto;padding:0 10px;}
+	.tdatelist10 li input.txt033 {width:94%;}
+	.tdatelist10 li input.ttxt033 {width:64%;}
+	.tdatelist10 li label {width:30%;}
+	.tdatelist10 li textarea.textarea01 {width:90%;}
+	.datableb10 table td input {margin:0 0;}
+	.datableb10,.tabright01 {padding:0 0;width:100%;overflow:auto;}
+	.datableb10 table,.tabright01 table {min-width:760px;}
+	.datelist10 p input {font-size:14px;margin-left:0;margin-top:3px;margin-right:3px;padding:3px 5px;}
+	.tabright01 table thead td {font-size:15px;}
+	.tabright01 table thead td.tb01 {width:20%;}
+	.datelist10 h1 {line-height:20px;}
+	.datelist10 h1 em {padding-left:0;display:inline-block;width:100%;}
+	.datelist10 li input.txt033,.datelist10 li textarea.textarea011  {width:94%;}
+	.datelist li input.txt03 {width:80%;}
+	.bgbox01 div.ttxt10 {width:94%;}
+	.datelist10 h5 {padding-left:0;}
+	.tmin10 {width:100%;}
+	.tabright01 table thead td {font-size:16px;}
+	.mtablebox,.topright011  {width:94%;margin:0 auto;}
+	.mtable,.bjbut {width:100%;}
+	.topright011 {padding-left:0;}
+	.tonglistbox {width:40%;}
+	.tonglistbox01 {width:55%;}
+	.xtopright02,.topright04,.topright10,.tdatelist10 {margin-top:5px;margin-left:4%;}
+	.xtopright02 input,.topright04 input,.topright10 input {margin-top:0;}
+	.xmtable0 table {margin:0 auto;width:80%;}
+	.mainbox01 {padding-top:100px;}
+	.mainbox01 div.right img {width:90px;}
+	.titletb {width:80%;}
+	.mainbox01 div.right {margin-top:20px;}
+	.pagetxtt11 textarea {width:97%;}
+	.pbbox01,.pbbox02,.pbbox03 {margin:0 auto;float:none;}
+	.pagetxt00 {width:100%;}
+	.tbb {display:none;}
+	.pagetablet11 table {width:100%;}
+	.xmianbox {width:100%;}
+	.xmianbox a.a1 {width:48%;background-size:100%;margin:0 1%;}
+	.xmianbox a.a2 {width:48%;background-size:100%;margin:0 1%;}
+	.tablebox11 table tbody td,.pagetablet11 table td {padding:3px 3px;}
+	.xtime {padding:10px 0;}
+	.xtime input {width:70px;}
+	.tabbox {width:96%;}
+	.xmainbox {width:90%;}
+	.maintable16 table.table16_1,.maintable16 table.table16 {min-width:560px;width:100%;}
+	.listbut,.gxbox {margin-top:10px;}
+	.maintable17  table,.maintable18 table {min-width:700px;}
+	.mbut18 a {width:45%;}
+	.toprighttxt {width:95%;}
+	.matablebox {width:100%;}
+	.matablebox table {min-width:auto;}
+	.xpleft,.xpright {width:100%;}
+	
+	.xpbox {width:90%;padding:2% 2%;}
+	.xpbox table td.t01 {width:30%;}
+	.maintable21 table td textarea {height:auto;}
+	.fxmaintable25 table {min-width:auto;}
+	.listbut26 a {width:auto;}
+	.maintabletop li a {padding-left:10px;}
+	.xdatelist82 {padding:15px 0;width:auto;}
+	.xdatelist8 div.datelist {width:100%;}
+	.xpright {width:100%;padding:5px 0;}
+	.xpy {float:left;}
+	.xpy01 {margin-top:0;}
+	.xptable {width:96%;overflow:auto;}
+
+}
+@media screen and (max-width: 770px) {
+	.maintablebox {width:100%;}
+	.left,.right {float:none;}
+	.xpy {float:left;}
+	.xpright {padding-top:10;}
+	.mianbox {overflow:hidden;}
+	.content ,.mainbox,.logo,.mtop,.errorbox,.mainbox01 {width:96%;}
+	.logo {padding-bottom:0px;height:100%;}
+	.logo p {display:inline;}
+	.logo img {width:60%;max-width:392px;margin-top:6px;}
+	.topleft,.topright {float:right;}
+	.topleft img,.indexnavlist,.xnotice,.indexnavlist,.xnotice,.navbox li span,.fda01,.fda02,.fda03 {width:100%;}
+	.indexnavlist li {padding-right:0px;width:33.3333%;text-align:center;}
+	.indexnavlist li img {width:96%;max-width:158px;}
+	.mtop,.mtop span {font-size:12px;}
+	.logmianbox {margin-top:20px;}
+	.headerbox {height:auto;overflow:hidden;}
+	.errorbox {padding-top:20px;}
+	.errorbox h2 {padding:0 0;}
+	.errorbox ul {padding:0 5%;}
+	.errortip span {display:inline-block;margin-top:10px;}
+	.topleft h4 {padding:0 0 0 0;}
+	.intxt h4 {margin-top:20px;}
+	.innavbox {padding-top:20px;}
+	.innavlist {width:100%;height:100%;overflow:auto;}
+	.innavlist li {width:25%;text-align:center;margin:0 0;}
+	.innavlist li img {width:96%;max-width:200px;}
+	.intxt {width:96%;padding:2% 2%;margin:0 0;height:auto;}
+	.xnotice01 {width:100%;}
+	.xnotice div.intxt01,.xnotice01 div.xnolist {height:auto;}
+	.xnolist {height:auto;}
+	.gxtop {margin:0 5px 0 0;}
+	.topright01 input {margin-top:5px;margin-right:5px;}
+	.navbox li a {padding:0 8px;width:auto;line-height:26px;}
+	.navbox li.td03 span {display:none;}
+	.navbox {padding-top:8px;}
+	.search1 {float:right;height:33px;}
+	.navbox li.td03 span {display:none;}
+	.datelist li input, .daborder input {padding:3px 3px;}
+	.datelist li select {padding:2px 2px;}
+	.datelist li input.txt05 {width:92%;}
+	.datelist li input.txt02,.datelist li input.txt03 {width:96%;}
+	.maintable {padding:10px 10px;}
+	.maintable table {min-width:760px;}
+	.maintabletop {margin-top:0;}
+	.maintable table td {line-height:18px;padding:0 0;font-size:14px;}
+	.datelist li {margin-top:0;}
+	.fileUpload {margin-top:10px;}
+	.upbg {margin:0 auto;}
+	.datelist h2 {margin:0 0;}
+	.datelist ul {padding-left:0;}
+	.datelist li span,.datelist li strong,.datelist li b,.datelist li em {font-size:14px;width:auto;padding:0 0;margin:0 5px;}
+	.databut {padding:20px 0;}
+	.logo img.logoimg {display:none;}
+	.datelist div.databox {margin-left:0;}
+	.databox h3 {font-size:16px;}
+	.databox i {font-size:14px;display:inline-block;}
+	.databox textarea {width:94%;}
+	.fmian .databox li strong {width:auto;}
+	.datelist00 li strong:first-child {font-size:16px;}
+	.dateboxborder {width:100%;}
+	.daborder {margin:0 0;width:100%;padding:20px 0;}
+	.databox02 {width:100%;padding-top:20px;}
+	.tablebox01 {width:96%;margin:0 2%;}
+	.databox h3 {line-height:20px;}
+	.listtop h2 {margin:0 0;}
+	.maintabletop {height:auto;}
+	.maintabletop li {background:none;padding-right:0;margin-right:3px;}
+	.maintabletop li a {height:auto;line-height:30px;}
+	.maintabletop01 li a {width:auto;background:#ffeb99;border:1px #f3db7a solid;padding:0 10px;}
+	.maintabletop01 li.cn a {background:#deebf7;border:1px #41719c solid;}
+	.fmaintabletop01 li a {width:auto;background:#ffeb99;border:1px #f3db7a solid;padding:0 10px;}
+	.fmaintabletop01 li.cn a {background:#deebf7;border:1px #41719c solid;}
+	.maintabletop li.cn {background:none;}
+	.titletop h2 {margin:0 0;}
+	.topright01 input {width:auto;padding:0 10px;margin-left:5px;}
+	.datetit h3 {padding-left:0;line-height:20px;}
+	.table05 {padding-left:0;width:100%;overflow:auto;}
+	.table05 table {min-width:760px;}
+	.datetit textarea {margin-left:0;width:96%;padding:2% 2%;}
+	.data05 {margin-left:0;width:96%;padding:2% 2%;margin-top:10px;height:auto;}
+	.data05 h4 {padding:10px 0;text-align:center;}
+	.but05 {padding-top:10px;}
+	.box05 {height:auto;width:94%;padding:2% 2%;}
+	.pagetable05 {width:100%;overflow:auto;}
+	.pagetable05 table {min-width:500px;}
+	.pagetable05 table td textarea {width:94%;padding:2% 2%;height:auto;}
+	.pagetable05 table td {padding:5px 5px;font-size:14px;text-align:center;}
+	.pagetable05 table td select {padding:3px 3px;}
+	.box05 h3 strong {padding:0 0;display:inline-block;width:100%;line-height:20px;}
+	.data05 li input.txt03 {width:90%;}
+	.pagetable06 table td {padding:5px 5px;line-height:20px;font-size:14px;}
+	.pagetable06 table tr td.t01 {width:30px;}
+	.databox {margin-left:0;}
+	.databox08 {padding:10px 10px;}
+	.xdatelist8,.fmaintabletop01 {height:100%;overflow:auto;}
+	.fxmaintable8 table {min-width:1100px;}
+	.xmaintable8 table thead td {padding:2px 2px;}
+	.tdatelist li {float:left;margin-right:20px;margin-bottom:10px;}
+	.xdatetxt08 {width:90%;margin-top:10px;}
+	.titletop01 {text-align:center;}
+	.titletop01 span {margin-bottom:5px;float:none;}
+	.titletop01 h2 {margin-left:0;width:100%;}
+	.layerbox {width:88%;}
+	.datelist08 textarea {width:92%;}
+	.pagetxt08 {margin:5px 0 0 0;}
+	.dateboxborder {width:100%;margin-top:0px;}
+	.toptxt {padding-top:3px;}
+	.pagetxt08 {font-size:14px;line-height:20px;}
+	.tabbox01 td select.select01 {width:90px;}
+	.tabbox01 td input.txt05 {width:60px;}
+	.tabbox01 {padding:10px 0 0 0;width:100%;overflow:auto;}
+	.tabbox01 table {min-width:500px;}
+	.tabbox01 table td.tt input {margin-left:0;}
+	.xtbbox {height:auto;padding-left:0;}
+	.xtb {margin-left:0;padding:20px 10px 15px 10px;width:100%;margin-bottom:10px;text-align:center;}
+	.xtb a {width:100%;}
+	.tdatabut input {width:80%;}
+	.pagebox10 h3 {padding:10px 0;}
+	.pagetxt10 {margin:20px 0 0 0;font-size:14px;line-height:20px;}
+	.tblist {width:100%;margin-top:80px;}
+	.tblist li {margin-left:28px;float:left;}
+	.topright04 input {margin-top:0;}
+	.tabright {width:100%;overflow:auto;padding-top:15px;}
+	.tabright table {width:760px;}
+	.topright01 input {margin-top:0;}
+	.topright04 input {width:auto;margin-left:3px;}
+	.ttabright01 {padding-top:0;}
+	.headertit,.headerlist,.bgbox01 div.left,.bgbox01 div.right {width:100%;}
+	.headerlist li {margin:0 0 0 2px;}
+	.headerlist li a {width:auto;padding:0 10px;}
+	.tdatelist10 li input.txt033 {width:94%;}
+	.tdatelist10 li input.ttxt033 {width:64%;}
+	.tdatelist10 li label {width:30%;}
+	.tdatelist10 li textarea.textarea01 {width:90%;}
+	.datableb10 table td input {margin:0 0;}
+	.datableb10,.tabright01 {padding:0 0;width:100%;overflow:auto;}
+	.datableb10 table,.tabright01 table {min-width:760px;}
+	.datelist10 p input {font-size:14px;margin-left:0;margin-top:3px;margin-right:3px;padding:3px 5px;}
+	.tabright01 table thead td {font-size:15px;}
+	.tabright01 table thead td.tb01 {width:20%;}
+	.datelist10 h1 {line-height:20px;}
+	.datelist10 h1 em {padding-left:0;display:inline-block;width:100%;}
+	.datelist10 li input.txt033,.datelist10 li textarea.textarea011  {width:94%;}
+	.datelist li input.txt03 {width:80%;}
+	.bgbox01 div.ttxt10 {width:94%;}
+	.datelist10 h5 {padding-left:0;}
+	.tmin10 {width:100%;}
+	.mtablebox {width:94%;margin:0 auto;}
+	.mtable,.bjbut {width:100%;}
+	.topright011 {margin-top:10px;}
+	.tabright {padding-top:5px;}
+	.bjbut {padding-top:10px;}
+	.xinnavbox em a {width:auto;padding:0 20px;}
+	.tonglistbox {margin-left:0;width:90%;margin:0 auto;}
+	.tonglist {width:auto;}
+	.xtopright02 {margin-top:10px;padding-left:10%;}
+	.databut02 input {width:80%;}
+	.maintablebox {padding-bottom:10px;}
+	.tdatelist10 {padding-top:10px;}
+	.bttxt {float:left;padding-top:0;font-size:20px;}
+	.titletb {width:80%;text-align:left;float:left;padding:10px 0;}
+	.xtop {padding-bottom:0;}
+	.mainbox01 {padding-top:55px;}
+	.mainbox01 div.right {text-align:right;margin-top:30px;}
+	.mainbox01 div.right img {width:60px;}
+	.pbbox01,.pbbox02,.pbbox03 {margin:0 auto;float:none;}
+	.pagetxt00 {width:100%;}
+	.pagetxtt11 textarea {width:95%;}
+	.tbb {display:none;}
+	.pagetablet11 table {width:100%;}
+	.pagetablet11 table td {padding:3px 3px;}
+	.pagetablet11 table td,.pagetablet11 table td span {font-size:14px;}
+	.pageboxt11 h3 {padding:3px 3px;}
+	.xmianbox {width:100%;}
+	.xmianbox a.a1 {width:48%;background-size:100%;margin:0 1%;line-height:250px;}
+	.xmianbox a.a2 {width:48%;background-size:100%;margin:0 1%;line-height:250px;}
+	.tablebox11 {padding-bottom:10px;}
+	.tablebox11 table tbody td,.pagetablet11 table td {padding:3px 3px;}
+	.titletop h2 {width:100%;}
+	.titletop11 {margin:20px 0 0 0;}
+	.xtime span,.xtime em {padding-right:0;margin:0;}
+	.xtime {padding:10px 0;}
+	.xtime input {width:70px;}
+	.tabbox {width:96%;overflow:auto;}
+	.tabbox table {min-width:760px;}
+	.xmainbox {width:90%;}
+	.xbutton span {padding-right:0;}
+	.xbutton span a {width:48%;}
+	.xzhboxtable,.xzhtext {width:100%;}
+	.xzhtext {margin-top:10px;}
+	.xzhboxtable h2 {margin-top:15px;}
+	.xmainbox14 {margin-top:80px;}
+	.tabbox {padding-top:20px;}
+	.maintable16 table.table16_1,.maintable16 table.table16 {min-width:auto;width:100%;}
+	.maintable16 table.table16_2 {min-width:780px;width:100%;}
+	.listbut {float:left;margin-top:10px;}
+	.gxbox {float:right;margin-top:10px;}
+	.maintable17  table,.maintable18 table {min-width:600px;}
+	.mbut18 a {width:68%;}
+	.toprighttxt {width:96%;padding:2% 2%;line-height:18px;}
+	.topleft01,.listbut18 {float:none;}
+	.listbut18 {margin-bottom:10px;}
+	.maintablef18 table {min-width:400px;}
+	.maintablef18 table tbody td {font-size:14px;}
+	.butlistbox a {font-size:16px;height:80px;line-height:80px;margin-bottom:10px;}
+	.matablebox {width:100%;}
+	.matablebox table {min-width:700px;}
+	.plistbox {width:100%;}
+	.xtbbox {margin-bottom:0;width:90%;padding:0 0;}
+	.xx01 a {font-size:18px;height:60px;line-height:60px;width:100%;}
+	.xpleft,.xpright {width:100%;}
+	.titletop25 {text-align:center;}
+	.titletop25 a {margin-bottom:5px;float:none;}
+	.fxmaintable25 table {min-width:800px;}
+	.photobox {float:left;width:50%;overflow:hidden;}
+	.photobox a {width:98%;padding:15px 0;font-size:18px;}
+	.photobox img {width:80%;max-width:304px;}
+	.listbut25 {float:none;margin-top:50px;}
+	.phbut a {padding:10px 10px;}
+	.listbut26 {margin-right:5px;margin-top:5px;}
+	.listbut26 a {width:auto;}
+	.taimgbox ul.phimg li,.taimgbox li {margin:15px 0 0 15px;}
+	.gnamebox {width:100%;}
+	.xdatelist82 {padding:15px 0;width:auto;}
+	.navbox li.td04 {margin-top:0;}
+	.pagetop {padding-bottom:10px;}
+	.xpbox {padding:5px 5px;}
+	.mainbox20 {margin-top:40px;}
+	.xpright {width:100%;padding:5px 0;}
+	.xpy {float:left;}
+	.xpy01 {margin-top:0;}
+	.xptable {width:96%;overflow:auto;}
+}
+	
+@media screen and (max-width: 550px) {
+	.content ,.mainbox,.logo,.mtop {width:96%;}
+	.topleft input.but01 {width:52px;height:40px;background-size:100%;}
+	.loginbox {width:80%;padding:15px 5%;}
+	.loginbox h2 {line-height:30px;}
+	.loginbox ul {padding-left:0;}
+	.loginbox p {padding:10px 0 0 0;}
+	.mtop span {display:none;}
+	.errortip span {width:80%;padding:4px 0;}
+	.innavlist li {width:50%;}
+	.innavlist li img {width:90%;}
+	.gxtop {margin:0 5px 0 0;}
+	.gxtop img {width:52px;}
+	.topright01 input {margin-right:0;}
+	.databut {padding:20px 0;}
+	.databut input {width:40%;padding:4px 0;}
+	.fmian .databox li strong {width:88%;}
+	.tdatabut input {width:80%;}
+	.tblist li {margin-left:10%;}
+	.databut02 input {width:80%;}
+	.bttxt {font-size:16px;padding-top:0;}
+	.pbbox01,.pbbox02,.pbbox03 {border:10px #c8a065 solid;background:#fff;width:96%;margin-bottom:10px;overflow:auto;}
+	.pagelist11,.botombg,.pagetxt11 {background:none;}
+	.botombg {display:none;}
+	.xmianbox a.a1 {width:60%;background-size:100%;line-height:220px;min-width:270px;margin:0 10%;height:240px;}
+	.xmianbox a.a2 {width:60%;background-size:100%;line-height:220px;min-width:270px;margin:0 10%;height:240px;}
+	.xzhboxtable h2 {line-height:40px;}
+	.xzhboxtable h2 span {width:100%;}
+	.xzhboxtable h2 a {margin-left:0;width:100%;}
+	.maintable16 table.table16_1,.maintable16 table.table16 {min-width:370px;width:100%;}
+	.maintable16 table.table16_2 {min-width:780px;width:100%;}
+	.maintable17  table {min-width:600px;}
+	.butlistbox a {width:92%;}
+	.xtbbox {width:92%;padding-top:5px;}
+	.wbut {height:70px;}
+	.wbut div.topright {width:100%;}
+	.wbut div.topright p input {padding:0 0;width:100%;}
+	.fxmaintable25 table {width:800px;}
+	.gnamebox {width:90%;}
+	.gnamebox p input.txt26 {width:90%;}
+	 
+}
+@media screen and (max-width:415px) {
+	.xbutton span a {width:100%;margin-bottom:5px;}
+	.plistbox li {margin:0 0;}
+	.plistbox li span {width:100%;text-align:left;padding-left:5px;}
+	.plistbox li input {width:94%;}
+	.photobox a {font-size:14px;}
+	.listbut26 ,.listbut26 a {width:100%;padding:0 0;}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

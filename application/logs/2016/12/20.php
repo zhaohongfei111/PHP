@@ -1,0 +1,157 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-12-20 10:39:58 --- CRITICAL: View_Exception [ 0 ]: The requested view promptpage/saveSuccess_1 could not be found ~ SYSPATH\classes\Kohana\View.php [ 265 ] in E:\wamp\www\kindergarden\system\classes\Kohana\View.php:145
+2016-12-20 10:39:58 --- DEBUG: #0 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(145): Kohana_View->set_filename('promptpage/save...')
+#1 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(30): Kohana_View->__construct('promptpage/save...', NULL)
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Postprompt.php(57): Kohana_View::factory('promptpage/save...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_postprompt->action_saveSuccess()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_postprompt))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\application\classes\Controller\Administration.php(318): Kohana_Request->execute()
+#9 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Administration->action_dataSet_Insert()
+#10 [internal function]: Kohana_Controller->execute()
+#11 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Administration))
+#12 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#14 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#15 {main} in E:\wamp\www\kindergarden\system\classes\Kohana\View.php:145
+2016-12-20 10:40:18 --- CRITICAL: View_Exception [ 0 ]: The requested view promptpage/saveSuccess_1 could not be found ~ SYSPATH\classes\Kohana\View.php [ 265 ] in E:\wamp\www\kindergarden\system\classes\Kohana\View.php:145
+2016-12-20 10:40:18 --- DEBUG: #0 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(145): Kohana_View->set_filename('promptpage/save...')
+#1 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(30): Kohana_View->__construct('promptpage/save...', NULL)
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Postprompt.php(57): Kohana_View::factory('promptpage/save...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_postprompt->action_saveSuccess()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_postprompt))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\application\classes\Controller\Administration.php(318): Kohana_Request->execute()
+#9 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Administration->action_dataSet_Insert()
+#10 [internal function]: Kohana_Controller->execute()
+#11 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Administration))
+#12 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#14 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#15 {main} in E:\wamp\www\kindergarden\system\classes\Kohana\View.php:145
+2016-12-20 10:41:21 --- CRITICAL: View_Exception [ 0 ]: The requested view promptpage/saveSuccess_1 could not be found ~ SYSPATH\classes\Kohana\View.php [ 265 ] in E:\wamp\www\kindergarden\system\classes\Kohana\View.php:145
+2016-12-20 10:41:21 --- DEBUG: #0 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(145): Kohana_View->set_filename('promptpage/save...')
+#1 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(30): Kohana_View->__construct('promptpage/save...', NULL)
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Postprompt.php(57): Kohana_View::factory('promptpage/save...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_postprompt->action_saveSuccess()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_postprompt))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\application\classes\Controller\Administration.php(318): Kohana_Request->execute()
+#9 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Administration->action_dataSet_Insert()
+#10 [internal function]: Kohana_Controller->execute()
+#11 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Administration))
+#12 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#14 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#15 {main} in E:\wamp\www\kindergarden\system\classes\Kohana\View.php:145
+2016-12-20 10:43:29 --- CRITICAL: View_Exception [ 0 ]: The requested view promptpage/saveSuccess_1 could not be found ~ SYSPATH\classes\Kohana\View.php [ 265 ] in E:\wamp\www\kindergarden\system\classes\Kohana\View.php:145
+2016-12-20 10:43:29 --- DEBUG: #0 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(145): Kohana_View->set_filename('promptpage/save...')
+#1 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(30): Kohana_View->__construct('promptpage/save...', NULL)
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Postprompt.php(57): Kohana_View::factory('promptpage/save...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_postprompt->action_saveSuccess()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_postprompt))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\application\classes\Controller\Administration.php(318): Kohana_Request->execute()
+#9 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Administration->action_dataSet_Insert()
+#10 [internal function]: Kohana_Controller->execute()
+#11 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Administration))
+#12 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#14 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#15 {main} in E:\wamp\www\kindergarden\system\classes\Kohana\View.php:145
+2016-12-20 10:44:56 --- CRITICAL: View_Exception [ 0 ]: The requested view promptpage/saveSuccess_1 could not be found ~ SYSPATH\classes\Kohana\View.php [ 265 ] in E:\wamp\www\kindergarden\system\classes\Kohana\View.php:145
+2016-12-20 10:44:56 --- DEBUG: #0 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(145): Kohana_View->set_filename('promptpage/save...')
+#1 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(30): Kohana_View->__construct('promptpage/save...', NULL)
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Postprompt.php(57): Kohana_View::factory('promptpage/save...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_postprompt->action_saveSuccess()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_postprompt))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\application\classes\Controller\Child.php(516): Kohana_Request->execute()
+#9 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Child->action_step12_insert()
+#10 [internal function]: Kohana_Controller->execute()
+#11 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Child))
+#12 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#14 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#15 {main} in E:\wamp\www\kindergarden\system\classes\Kohana\View.php:145
+2016-12-20 13:54:31 --- CRITICAL: ErrorException [ 1 ]: Maximum execution time of 30 seconds exceeded ~ SYSPATH\classes\Kohana\Core.php [ 984 ] in file:line
+2016-12-20 13:54:31 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2016-12-20 13:54:31 --- CRITICAL: ErrorException [ 1 ]: Maximum execution time of 30 seconds exceeded ~ SYSPATH\classes\Kohana\Session\Native.php [ 66 ] in file:line
+2016-12-20 13:54:31 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2016-12-20 13:56:13 --- CRITICAL: ErrorException [ 1 ]: Maximum execution time of 30 seconds exceeded ~ SYSPATH\classes\Kohana\Core.php [ 984 ] in file:line
+2016-12-20 13:56:13 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2016-12-20 14:00:12 --- CRITICAL: ErrorException [ 4096 ]: Argument 1 passed to Kohana_Upload::type() must be an array, null given ~ SYSPATH\classes\Kohana\Upload.php [ 146 ] in E:\wamp\www\kindergarden\system\classes\Kohana\Upload.php:146
+2016-12-20 14:00:12 --- DEBUG: #0 E:\wamp\www\kindergarden\system\classes\Kohana\Upload.php(146): Kohana_Core::error_handler(4096, 'Argument 1 pass...', 'E:\wamp\www\kin...', 146, Array)
+#1 [internal function]: Kohana_Upload::type(NULL, Array)
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\Validation.php(410): ReflectionMethod->invokeArgs(NULL, Array)
+#3 E:\wamp\www\kindergarden\application\classes\Model\child.php(1496): Kohana_Validation->check()
+#4 E:\wamp\www\kindergarden\application\classes\Controller\Child.php(515): Model_child->step12_Data(Object(Request))
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Child->action_step12_insert()
+#6 [internal function]: Kohana_Controller->execute()
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Child))
+#8 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#9 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#10 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#11 {main} in E:\wamp\www\kindergarden\system\classes\Kohana\Upload.php:146
+2016-12-20 14:47:42 --- CRITICAL: ErrorException [ 2 ]: number_format() expects parameter 1 to be double, string given ~ APPPATH\views\child\invoicePDF.php [ 108 ] in file:line
+2016-12-20 14:47:42 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'number_format()...', 'E:\wamp\www\kin...', 108, Array)
+#1 E:\wamp\www\kindergarden\application\views\child\invoicePDF.php(108): number_format('')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(62): include('E:\wamp\www\kin...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(359): Kohana_View::capture('E:\wamp\www\kin...', Array)
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(236): Kohana_View->render()
+#5 E:\wamp\www\kindergarden\application\classes\Controller\Child.php(995): Kohana_View->__toString()
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Child->action_invoicePDF()
+#7 [internal function]: Kohana_Controller->execute()
+#8 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Child))
+#9 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#10 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#11 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#12 {main} in file:line
+2016-12-20 14:47:43 --- CRITICAL: ErrorException [ 1 ]: Allowed memory size of 134217728 bytes exhausted (tried to allocate 261904 bytes) ~ APPPATH\include\mpdf\classes\cssmgr.php [ 16263 ] in file:line
+2016-12-20 14:47:43 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2016-12-20 14:49:31 --- CRITICAL: ErrorException [ 2 ]: number_format() expects parameter 1 to be double, string given ~ APPPATH\views\child\invoicePDF.php [ 108 ] in file:line
+2016-12-20 14:49:31 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'number_format()...', 'E:\wamp\www\kin...', 108, Array)
+#1 E:\wamp\www\kindergarden\application\views\child\invoicePDF.php(108): number_format('')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(62): include('E:\wamp\www\kin...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(359): Kohana_View::capture('E:\wamp\www\kin...', Array)
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(236): Kohana_View->render()
+#5 E:\wamp\www\kindergarden\application\classes\Controller\Child.php(996): Kohana_View->__toString()
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Child->action_invoicePDF()
+#7 [internal function]: Kohana_Controller->execute()
+#8 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Child))
+#9 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#10 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#11 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#12 {main} in file:line
+2016-12-20 14:49:32 --- CRITICAL: ErrorException [ 1 ]: Allowed memory size of 134217728 bytes exhausted (tried to allocate 261904 bytes) ~ APPPATH\include\mpdf\classes\cssmgr.php [ 16263 ] in file:line
+2016-12-20 14:49:32 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2016-12-20 14:50:08 --- CRITICAL: ErrorException [ 2 ]: number_format() expects parameter 1 to be double, string given ~ APPPATH\views\child\invoicePDF.php [ 108 ] in file:line
+2016-12-20 14:50:08 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'number_format()...', 'E:\wamp\www\kin...', 108, Array)
+#1 E:\wamp\www\kindergarden\application\views\child\invoicePDF.php(108): number_format('')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(62): include('E:\wamp\www\kin...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(359): Kohana_View::capture('E:\wamp\www\kin...', Array)
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(236): Kohana_View->render()
+#5 E:\wamp\www\kindergarden\application\classes\Controller\Child.php(996): Kohana_View->__toString()
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Child->action_invoicePDF()
+#7 [internal function]: Kohana_Controller->execute()
+#8 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Child))
+#9 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#10 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#11 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#12 {main} in file:line

@@ -1,0 +1,20 @@
+body {font: 100%/2 "meiryo","Hiragino Sans GB","Microsoft YaHei","Wenquanyi Micro Hei",sans-serif;padding: 0;}
+.clear {clear: both;line-height: 0px;height:0px;font-size:0px;}
+.content {width:800px;margin:0 auto;padding-top:30px;}
+.tabletop {font-size:24px;font-weight:bold;text-align:center;border:1px #d0d0d0 solid;padding:6px 0 4px 0;}
+.wtablebox01 {margin-top:30px;}
+.wtablebox01 table,.wtablebox02 table {border-left:1px #000 solid;border-top:1px #000 solid;}
+.wtablebox01 table td,.wtablebox02 table td {border-right:1px #000 solid;border-bottom:1px #000 solid;}
+.wtablebox01 table thead td {font-size:13px;}
+.wtablebox01 table thead td em {display:inline-block;width:100%;height:100%;background:url(images/tbg.gif) no-repeat -20px -15px;padding:40px 0 29px 0;}
+.wtablebox01 table thead span {padding:0 5px;}
+.wtablebox01 table tbody td {padding:10px;}
+.wtablebox01 table tbody td.t01 {font-weight:bold;font-size:16px;}
+
+.wtablebox02 {padding-top:30px;}
+.wtablebox02 table td {padding:5px;font-size:14px;}
+.wtablebox02 table td span {font-size:12px;}
+.wtablebox02 table td.t1 {font-weight:bold;text-align:center;line-height:24px;width:80px;font-size:15px;}
+.wtablebox02 table td.t2 {padding:5px; height:60px;}
+.wtablebox02 table td.t3 {line-height:20px;font-size:14px;padding:0;text-align:center;}
+.wtablebox02 table td.t3 span {padding-left:50px;}

@@ -1,0 +1,465 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2017-05-19 09:44:03 --- CRITICAL: ErrorException [ 2 ]: rename(E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/test,E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/test4) [function.rename]: ƒAƒNƒZƒX‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½B (code: 5) ~ APPPATH\classes\Controller\Picshow.php [ 99 ] in file:line
+2017-05-19 09:44:03 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'rename(E:\wamp\...', 'E:\wamp\www\kin...', 99, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(99): rename('E:\wamp\www\kin...', 'E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_reNameFile()
+#3 [internal function]: Kohana_Controller->execute()
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#7 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#8 {main} in file:line
+2017-05-19 09:44:05 --- CRITICAL: ErrorException [ 2 ]: rename(E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/test,E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/test4) [function.rename]: ƒAƒNƒZƒX‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½B (code: 5) ~ APPPATH\classes\Controller\Picshow.php [ 99 ] in file:line
+2017-05-19 09:44:05 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'rename(E:\wamp\...', 'E:\wamp\www\kin...', 99, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(99): rename('E:\wamp\www\kin...', 'E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_reNameFile()
+#3 [internal function]: Kohana_Controller->execute()
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#7 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#8 {main} in file:line
+2017-05-19 12:10:12 --- CRITICAL: ErrorException [ 2 ]: rename(E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/test/149515657198318900.jpg,E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/test/test_test1) [function.rename]: ƒAƒNƒZƒX‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½B (code: 5) ~ APPPATH\classes\Controller\Picshow.php [ 122 ] in file:line
+2017-05-19 12:10:12 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'rename(E:\wamp\...', 'E:\wamp\www\kin...', 122, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(122): rename('E:\wamp\www\kin...', 'E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_moveFile()
+#3 [internal function]: Kohana_Controller->execute()
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#7 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#8 {main} in file:line
+2017-05-19 12:10:17 --- CRITICAL: ErrorException [ 2 ]: rename(E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/test/149515657198318900.jpg,E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/test/test_test1) [function.rename]: ƒAƒNƒZƒX‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½B (code: 5) ~ APPPATH\classes\Controller\Picshow.php [ 122 ] in file:line
+2017-05-19 12:10:17 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'rename(E:\wamp\...', 'E:\wamp\www\kin...', 122, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(122): rename('E:\wamp\www\kin...', 'E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_moveFile()
+#3 [internal function]: Kohana_Controller->execute()
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#7 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#8 {main} in file:line
+2017-05-19 12:10:55 --- CRITICAL: ErrorException [ 2 ]: rename(E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/test/149515657198318900.jpg,E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/test/test_test1/) [function.rename]: ƒAƒNƒZƒX‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½B (code: 5) ~ APPPATH\classes\Controller\Picshow.php [ 122 ] in file:line
+2017-05-19 12:10:55 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'rename(E:\wamp\...', 'E:\wamp\www\kin...', 122, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(122): rename('E:\wamp\www\kin...', 'E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_moveFile()
+#3 [internal function]: Kohana_Controller->execute()
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#7 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#8 {main} in file:line
+2017-05-19 12:16:17 --- CRITICAL: ErrorException [ 2 ]: rename(G:/test.txt,G:/test/) [function.rename]: ƒAƒNƒZƒX‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½B (code: 5) ~ APPPATH\classes\Controller\Child.php [ 1112 ] in file:line
+2017-05-19 12:16:17 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'rename(G:/test....', 'E:\wamp\www\kin...', 1112, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Controller\Child.php(1112): rename('G:/test.txt', 'G:/test/')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Child->action_test1()
+#3 [internal function]: Kohana_Controller->execute()
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Child))
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#7 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#8 {main} in file:line
+2017-05-19 12:16:28 --- CRITICAL: ErrorException [ 2 ]: rename(G:/test.txt,G:/test) [function.rename]: ƒAƒNƒZƒX‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½B (code: 5) ~ APPPATH\classes\Controller\Child.php [ 1112 ] in file:line
+2017-05-19 12:16:28 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'rename(G:/test....', 'E:\wamp\www\kin...', 1112, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Controller\Child.php(1112): rename('G:/test.txt', 'G:/test')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Child->action_test1()
+#3 [internal function]: Kohana_Controller->execute()
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Child))
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#7 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#8 {main} in file:line
+2017-05-19 12:19:38 --- CRITICAL: ErrorException [ 2 ]: rename(E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/test/test_test1/149515727595840200.jpg,E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/test/test_test1/newXX/149515727595840200.jpg/) [function.rename]: Žw’è‚³‚ê‚½ƒtƒ@ƒCƒ‹‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñB (code: 2) ~ APPPATH\classes\Controller\Picshow.php [ 122 ] in file:line
+2017-05-19 12:19:38 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'rename(E:\wamp\...', 'E:\wamp\www\kin...', 122, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(122): rename('E:\wamp\www\kin...', 'E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_moveFile()
+#3 [internal function]: Kohana_Controller->execute()
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#7 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#8 {main} in file:line
+2017-05-19 13:56:18 --- CRITICAL: ErrorException [ 2 ]: unlink(E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/test4149515461972587600.jpg) [function.unlink]: No such file or directory ~ APPPATH\classes\Public\File.php [ 11 ] in file:line
+2017-05-19 13:56:18 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(E:\wamp\...', 'E:\wamp\www\kin...', 11, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(11): unlink('E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(145): Public_File::deleteDir('E:\wamp\www\kin...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 13:56:32 --- CRITICAL: ErrorException [ 2 ]: unlink(E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/test4149515461972587600.jpg) [function.unlink]: No such file or directory ~ APPPATH\classes\Public\File.php [ 11 ] in file:line
+2017-05-19 13:56:32 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(E:\wamp\...', 'E:\wamp\www\kin...', 11, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(11): unlink('E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(145): Public_File::deleteDir('E:\wamp\www\kin...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 13:58:59 --- CRITICAL: ErrorException [ 2 ]: rmdir(E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/test4) [function.rmdir]: Directory not empty ~ APPPATH\classes\Public\File.php [ 5 ] in file:line
+2017-05-19 13:58:59 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'rmdir(E:\wamp\w...', 'E:\wamp\www\kin...', 5, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(5): rmdir('E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(145): Public_File::deleteDir('E:\wamp\www\kin...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 13:59:16 --- CRITICAL: ErrorException [ 2 ]: rmdir(E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/test4) [function.rmdir]: Directory not empty ~ APPPATH\classes\Public\File.php [ 5 ] in file:line
+2017-05-19 13:59:16 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'rmdir(E:\wamp\w...', 'E:\wamp\www\kin...', 5, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(5): rmdir('E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(145): Public_File::deleteDir('E:\wamp\www\kin...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 13:59:45 --- CRITICAL: ErrorException [ 2 ]: rmdir(E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/test4) [function.rmdir]: Directory not empty ~ APPPATH\classes\Public\File.php [ 5 ] in file:line
+2017-05-19 13:59:45 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'rmdir(E:\wamp\w...', 'E:\wamp\www\kin...', 5, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(5): rmdir('E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(145): Public_File::deleteDir('E:\wamp\www\kin...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 14:02:55 --- CRITICAL: ErrorException [ 2 ]: unlink(G:/testtest.txt) [function.unlink]: No such file or directory ~ APPPATH\classes\Public\File.php [ 11 ] in file:line
+2017-05-19 14:02:55 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(G:/testt...', 'E:\wamp\www\kin...', 11, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(11): unlink('G:/testtest.txt')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Child.php(1111): Public_File::deleteDir('G:/test')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Child->action_test1()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Child))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 14:16:14 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: yearMonDay ~ APPPATH\views\picShow\privatePic.php [ 11 ] in E:\wamp\www\kindergarden\application\views\picShow\privatePic.php:11
+2017-05-19 14:16:14 --- DEBUG: #0 E:\wamp\www\kindergarden\application\views\picShow\privatePic.php(11): Kohana_Core::error_handler(8, 'Undefined varia...', 'E:\wamp\www\kin...', 11, Array)
+#1 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(62): include('E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(359): Kohana_View::capture('E:\wamp\www\kin...', Array)
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\View.php(236): Kohana_View->render()
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\Response.php(160): Kohana_View->__toString()
+#5 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(215): Kohana_Response->body(Object(View))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_privatePic()
+#7 [internal function]: Kohana_Controller->execute()
+#8 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#9 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#10 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#11 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#12 {main} in E:\wamp\www\kindergarden\application\views\picShow\privatePic.php:11
+2017-05-19 14:48:49 --- CRITICAL: ErrorException [ 2 ]: unlink(E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/149517271126336100.jpg) [function.unlink]: No such file or directory ~ APPPATH\classes\Controller\Picshow.php [ 165 ] in file:line
+2017-05-19 14:48:49 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(E:\wamp\...', 'E:\wamp\www\kin...', 165, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(165): unlink('E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#3 [internal function]: Kohana_Controller->execute()
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#7 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#8 {main} in file:line
+2017-05-19 14:49:37 --- CRITICAL: ErrorException [ 2 ]: unlink(E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/149517297388436800.jpg) [function.unlink]: No such file or directory ~ APPPATH\classes\Controller\Picshow.php [ 165 ] in file:line
+2017-05-19 14:49:37 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(E:\wamp\...', 'E:\wamp\www\kin...', 165, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(165): unlink('E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#3 [internal function]: Kohana_Controller->execute()
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#7 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#8 {main} in file:line
+2017-05-19 14:49:50 --- CRITICAL: ErrorException [ 2 ]: unlink(E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/149517297388436800.jpg) [function.unlink]: No such file or directory ~ APPPATH\classes\Controller\Picshow.php [ 165 ] in file:line
+2017-05-19 14:49:50 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(E:\wamp\...', 'E:\wamp\www\kin...', 165, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(165): unlink('E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#3 [internal function]: Kohana_Controller->execute()
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#7 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#8 {main} in file:line
+2017-05-19 15:02:38 --- CRITICAL: ErrorException [ 2 ]: unlink(E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/test/test_test22/newYY) [function.unlink]: Permission denied ~ APPPATH\classes\Public\File.php [ 11 ] in file:line
+2017-05-19 15:02:38 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(E:\wamp\...', 'E:\wamp\www\kin...', 11, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(11): unlink('E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(165): Public_File::deleteDir('E:\wamp\www\kin...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 15:02:41 --- CRITICAL: ErrorException [ 2 ]: unlink(E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/test/test_test22/newYY) [function.unlink]: Permission denied ~ APPPATH\classes\Public\File.php [ 11 ] in file:line
+2017-05-19 15:02:41 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(E:\wamp\...', 'E:\wamp\www\kin...', 11, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(11): unlink('E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(165): Public_File::deleteDir('E:\wamp\www\kin...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 15:03:14 --- CRITICAL: ErrorException [ 2 ]: unlink(E:\wamp\www\kindergarden/media/uploadfile/picShow/privatePic/1/test/test_test1/newXX) [function.unlink]: Permission denied ~ APPPATH\classes\Public\File.php [ 11 ] in file:line
+2017-05-19 15:03:14 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(E:\wamp\...', 'E:\wamp\www\kin...', 11, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(11): unlink('E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(165): Public_File::deleteDir('E:\wamp\www\kin...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 15:04:24 --- CRITICAL: ErrorException [ 2 ]: unlink(E:\wamp\www\kindergarden/media/uploadfile/picShow/publicPic/test/test_test1) [function.unlink]: Permission denied ~ APPPATH\classes\Public\File.php [ 11 ] in file:line
+2017-05-19 15:04:24 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(E:\wamp\...', 'E:\wamp\www\kin...', 11, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(11): unlink('E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(165): Public_File::deleteDir('E:\wamp\www\kin...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 15:04:46 --- CRITICAL: ErrorException [ 2 ]: unlink(E:\wamp\www\kindergarden/media/uploadfile/picShow/publicPic/pubPic/child) [function.unlink]: Permission denied ~ APPPATH\classes\Public\File.php [ 11 ] in file:line
+2017-05-19 15:04:46 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(E:\wamp\...', 'E:\wamp\www\kin...', 11, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(11): unlink('E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(165): Public_File::deleteDir('E:\wamp\www\kin...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 15:06:58 --- CRITICAL: ErrorException [ 2 ]: unlink(E:\wamp\www\kindergarden/media/uploadfile/picShow/publicPic/grandFather/father) [function.unlink]: Permission denied ~ APPPATH\classes\Public\File.php [ 11 ] in file:line
+2017-05-19 15:06:58 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(E:\wamp\...', 'E:\wamp\www\kin...', 11, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(11): unlink('E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(165): Public_File::deleteDir('E:\wamp\www\kin...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 15:07:19 --- CRITICAL: ErrorException [ 2 ]: unlink(E:\wamp\www\kindergarden/media/uploadfile/picShow/publicPic/grandFather/father/son) [function.unlink]: Permission denied ~ APPPATH\classes\Public\File.php [ 11 ] in file:line
+2017-05-19 15:07:19 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(E:\wamp\...', 'E:\wamp\www\kin...', 11, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(11): unlink('E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(165): Public_File::deleteDir('E:\wamp\www\kin...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 15:11:23 --- CRITICAL: ErrorException [ 2 ]: unlink(son) [function.unlink]: No such file or directory ~ APPPATH\classes\Public\File.php [ 11 ] in file:line
+2017-05-19 15:11:23 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(son) [<a...', 'E:\wamp\www\kin...', 11, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(11): unlink('son')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(165): Public_File::deleteDir('E:\wamp\www\kin...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 15:13:07 --- CRITICAL: ErrorException [ 2 ]: unlink(son) [function.unlink]: No such file or directory ~ APPPATH\classes\Public\File.php [ 11 ] in file:line
+2017-05-19 15:13:07 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(son) [<a...', 'E:\wamp\www\kin...', 11, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(11): unlink('son')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(165): Public_File::deleteDir('E:\wamp\www\kin...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 15:13:33 --- CRITICAL: ErrorException [ 2 ]: unlink(son) [function.unlink]: No such file or directory ~ APPPATH\classes\Public\File.php [ 11 ] in file:line
+2017-05-19 15:13:33 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(son) [<a...', 'E:\wamp\www\kin...', 11, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(11): unlink('son')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(165): Public_File::deleteDir('E:\wamp\www\kin...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 15:13:47 --- CRITICAL: ErrorException [ 2 ]: unlink(father) [function.unlink]: No such file or directory ~ APPPATH\classes\Public\File.php [ 11 ] in file:line
+2017-05-19 15:13:47 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(father) ...', 'E:\wamp\www\kin...', 11, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(11): unlink('father')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(165): Public_File::deleteDir('E:\wamp\www\kin...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 15:15:29 --- CRITICAL: ErrorException [ 2 ]: unlink(son) [function.unlink]: No such file or directory ~ APPPATH\classes\Public\File.php [ 11 ] in file:line
+2017-05-19 15:15:29 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(son) [<a...', 'E:\wamp\www\kin...', 11, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(11): unlink('son')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Child.php(1111): Public_File::deleteDir('G:/grandFather/...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Child->action_test1()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Child))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 15:15:49 --- CRITICAL: ErrorException [ 2 ]: unlink(son) [function.unlink]: No such file or directory ~ APPPATH\classes\Public\File.php [ 11 ] in file:line
+2017-05-19 15:15:49 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(son) [<a...', 'E:\wamp\www\kin...', 11, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(11): unlink('son')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Child.php(1111): Public_File::deleteDir('G:/grandFather/...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Child->action_test1()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Child))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 15:16:23 --- CRITICAL: ErrorException [ 2 ]: unlink(son) [function.unlink]: No such file or directory ~ APPPATH\classes\Public\File.php [ 12 ] in file:line
+2017-05-19 15:16:23 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(son) [<a...', 'E:\wamp\www\kin...', 12, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(12): unlink('son')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Child.php(1111): Public_File::deleteDir('G:/grandFather/...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Child->action_test1()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Child))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 15:17:17 --- CRITICAL: ErrorException [ 2 ]: unlink(son) [function.unlink]: No such file or directory ~ APPPATH\classes\Public\File.php [ 13 ] in file:line
+2017-05-19 15:17:17 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(son) [<a...', 'E:\wamp\www\kin...', 13, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(13): unlink('son')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Child.php(1111): Public_File::deleteDir('G:/grandFather/...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Child->action_test1()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Child))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 15:18:15 --- CRITICAL: ErrorException [ 2 ]: unlink(son) [function.unlink]: No such file or directory ~ APPPATH\classes\Public\File.php [ 14 ] in file:line
+2017-05-19 15:18:15 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(son) [<a...', 'E:\wamp\www\kin...', 14, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(14): unlink('son')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Child.php(1111): Public_File::deleteDir('G:/grandFather/...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Child->action_test1()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Child))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 15:18:16 --- CRITICAL: ErrorException [ 2 ]: unlink(son) [function.unlink]: No such file or directory ~ APPPATH\classes\Public\File.php [ 14 ] in file:line
+2017-05-19 15:18:16 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(son) [<a...', 'E:\wamp\www\kin...', 14, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(14): unlink('son')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Child.php(1111): Public_File::deleteDir('G:/grandFather/...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Child->action_test1()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Child))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 15:19:06 --- CRITICAL: ErrorException [ 2 ]: unlink(son) [function.unlink]: No such file or directory ~ APPPATH\classes\Public\File.php [ 15 ] in file:line
+2017-05-19 15:19:06 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(son) [<a...', 'E:\wamp\www\kin...', 15, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Public\File.php(15): unlink('son')
+#2 E:\wamp\www\kindergarden\application\classes\Controller\Child.php(1111): Public_File::deleteDir('G:/grandFather/...')
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Child->action_test1()
+#4 [internal function]: Kohana_Controller->execute()
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Child))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#9 {main} in file:line
+2017-05-19 15:19:45 --- CRITICAL: ErrorException [ 8 ]: Use of undefined constant dir - assumed 'dir' ~ APPPATH\classes\Public\File.php [ 10 ] in E:\wamp\www\kindergarden\application\classes\Public\File.php:10
+2017-05-19 15:19:45 --- DEBUG: #0 E:\wamp\www\kindergarden\application\classes\Public\File.php(10): Kohana_Core::error_handler(8, 'Use of undefine...', 'E:\wamp\www\kin...', 10, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Controller\Child.php(1111): Public_File::deleteDir('G:/grandFather/...')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Child->action_test1()
+#3 [internal function]: Kohana_Controller->execute()
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Child))
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#7 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#8 {main} in E:\wamp\www\kindergarden\application\classes\Public\File.php:10
+2017-05-19 15:20:05 --- CRITICAL: ErrorException [ 1 ]: Using $this when not in object context ~ APPPATH\classes\Public\File.php [ 12 ] in file:line
+2017-05-19 15:20:05 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2017-05-19 15:20:45 --- CRITICAL: ErrorException [ 2048 ]: Non-static method Public_File::deleteDir() should not be called statically, assuming $this from incompatible context ~ APPPATH\classes\Controller\Child.php [ 1111 ] in E:\wamp\www\kindergarden\application\classes\Controller\Child.php:1111
+2017-05-19 15:20:45 --- DEBUG: #0 E:\wamp\www\kindergarden\application\classes\Controller\Child.php(1111): Kohana_Core::error_handler(2048, 'Non-static meth...', 'E:\wamp\www\kin...', 1111, Array)
+#1 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Child->action_test1()
+#2 [internal function]: Kohana_Controller->execute()
+#3 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Child))
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#6 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#7 {main} in E:\wamp\www\kindergarden\application\classes\Controller\Child.php:1111
+2017-05-19 15:20:57 --- CRITICAL: ErrorException [ 1 ]: Using $this when not in object context ~ APPPATH\classes\Public\File.php [ 12 ] in file:line
+2017-05-19 15:20:57 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2017-05-19 15:31:52 --- CRITICAL: ErrorException [ 2 ]: rename(E:\wamp\www\kindergarden/media/uploadfile/picShow/publicPic//pub1/ãƒ€ãƒ–ãƒ«ã‚¯ãƒªï¿½ï¿½,E:\wamp\www\kindergarden/media/uploadfile/picShow/publicPic//pub1/é¸æŠžã™ã‚‹) [function.rename]: Žw’è‚³‚ê‚½ƒtƒ@ƒCƒ‹‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñB (code: 2) ~ APPPATH\classes\Controller\Picshow.php [ 110 ] in file:line
+2017-05-19 15:31:52 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'rename(E:\wamp\...', 'E:\wamp\www\kin...', 110, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(110): rename('E:\wamp\www\kin...', 'E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_reNameFile()
+#3 [internal function]: Kohana_Controller->execute()
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#7 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#8 {main} in file:line
+2017-05-19 15:31:54 --- CRITICAL: ErrorException [ 2 ]: rename(E:\wamp\www\kindergarden/media/uploadfile/picShow/publicPic//pub1/ãƒ€ãƒ–ãƒ«ã‚¯ãƒªï¿½ï¿½,E:\wamp\www\kindergarden/media/uploadfile/picShow/publicPic//pub1/é¸æŠžã™ã‚‹) [function.rename]: Žw’è‚³‚ê‚½ƒtƒ@ƒCƒ‹‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñB (code: 2) ~ APPPATH\classes\Controller\Picshow.php [ 110 ] in file:line
+2017-05-19 15:31:54 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'rename(E:\wamp\...', 'E:\wamp\www\kin...', 110, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(110): rename('E:\wamp\www\kin...', 'E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_reNameFile()
+#3 [internal function]: Kohana_Controller->execute()
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#7 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#8 {main} in file:line
+2017-05-19 15:31:58 --- CRITICAL: ErrorException [ 2 ]: unlink(E:\wamp\www\kindergarden/media/uploadfile/picShow/publicPic/pub1/ãƒ€ãƒ–ãƒ«ã‚¯ãƒªï¿½ï¿½) [function.unlink]: No such file or directory ~ APPPATH\classes\Controller\Picshow.php [ 168 ] in file:line
+2017-05-19 15:31:58 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(E:\wamp\...', 'E:\wamp\www\kin...', 168, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(168): unlink('E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#3 [internal function]: Kohana_Controller->execute()
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#7 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#8 {main} in file:line
+2017-05-19 15:32:03 --- CRITICAL: ErrorException [ 2 ]: unlink(E:\wamp\www\kindergarden/media/uploadfile/picShow/publicPic/pub1/ãƒ€ãƒ–ãƒ«ã‚¯ãƒªï¿½ï¿½) [function.unlink]: No such file or directory ~ APPPATH\classes\Controller\Picshow.php [ 168 ] in file:line
+2017-05-19 15:32:03 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(E:\wamp\...', 'E:\wamp\www\kin...', 168, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(168): unlink('E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#3 [internal function]: Kohana_Controller->execute()
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#7 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#8 {main} in file:line
+2017-05-19 15:32:10 --- CRITICAL: ErrorException [ 2 ]: unlink(E:\wamp\www\kindergarden/media/uploadfile/picShow/publicPic/pub1/ãƒ€ãƒ–ãƒ«ã‚¯ãƒªï¿½ï¿½) [function.unlink]: No such file or directory ~ APPPATH\classes\Controller\Picshow.php [ 168 ] in file:line
+2017-05-19 15:32:10 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'unlink(E:\wamp\...', 'E:\wamp\www\kin...', 168, Array)
+#1 E:\wamp\www\kindergarden\application\classes\Controller\Picshow.php(168): unlink('E:\wamp\www\kin...')
+#2 E:\wamp\www\kindergarden\system\classes\Kohana\Controller.php(86): Controller_Picshow->action_delFile()
+#3 [internal function]: Kohana_Controller->execute()
+#4 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client\Internal.php(99): ReflectionMethod->invoke(Object(Controller_Picshow))
+#5 E:\wamp\www\kindergarden\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 E:\wamp\www\kindergarden\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#7 E:\wamp\www\kindergarden\index.php(118): Kohana_Request->execute()
+#8 {main} in file:line
